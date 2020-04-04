@@ -9,6 +9,9 @@ import { DonacionesComponent } from './donaciones/donaciones.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegistrarCuentaComponent } from './registrar-cuenta/registrar-cuenta.component';
+import {MatStepperModule} from '@angular/material/stepper';
+import { ModificarPasswordComponent } from './modificar-password/modificar-password.component';
+import { RecuperarPasswordComponent } from './recuperar-password/recuperar-password.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +22,14 @@ import { RegistrarCuentaComponent } from './registrar-cuenta/registrar-cuenta.co
     DonacionesComponent,
     NavbarComponent,
     FooterComponent,
-    RegistrarCuentaComponent
+    RegistrarCuentaComponent,
+    ModificarPasswordComponent,
+    RecuperarPasswordComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
