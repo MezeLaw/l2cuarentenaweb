@@ -1,0 +1,26 @@
+.margin-top{
+    margin-top: 70px !important;
+}
+
+#bannerimage{
+    width: 100%;
+    background-image: url(src\assets\images\l2wall.jpg);
+    height: 1000px;
+    background-color: purple;
+    background-position: center;
+    background-size: cover;
+}
+
+.contador{
+    position: center !important;
+}
+
+#contador{
+    text-align: center;
+    padding-top: 630px;
+}
+
+#server{
+    text-align: center;
+    padding-top: 70px;
+}
