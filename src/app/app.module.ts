@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {MatStepperModule} from '@angular/material/stepper';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
@@ -24,8 +23,7 @@ import { RegistrarCuentaComponent } from './registrar-cuenta/registrar-cuenta.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    MatStepperModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
